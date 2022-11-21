@@ -1,0 +1,241 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navbar{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d5c1c761244af000131c2bb/1664411474208-Z1G37ZG7H9VHC75YR88S/IMG_2330.jpg?format=2500w');
+    opacity: 0.7;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .desc-wrapper p {
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 20px auto;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .desc-wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+  }
+  
+  h1{
+    text-align: center;
+    color: #d5b6ae;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 0px;
+    text-transform: none;
+    line-height: 1.2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family:'Dancing Script', cursive;
+  }
+
+  /**Footer**/
+.footer-style{
+  background-color: #d5b6ae;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 300px;;
+  font-weight: 400;
+}
+
+.contact{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+}
+
+.email{
+  padding-bottom: 40px;
+}
+
+.contact > a{
+  color: white;
+  text-decoration: none;
+}
+
+.email > a{
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ a:hover{
+  color: black;
+ }
+
+ .errormessage{
+  text-align: center;
+  color: #d5b6ae;
+  font-size: 20px;
+  padding-bottom: 25px;
+ }
+
+ .errormessage > a{
+  color: #d5b6ae;
+ }
+
+.nextbutton{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+ #button1{
+  width: 400px;
+ }
+
+ .package-content{
+  text-align: center;
+ }
+
+input:checked + label {   /* change content when selected */
+    background: #d5b6ae;
+    color: white;
+}
+label {                   /* change mouseover when hovered on */
+    cursor: pointer;
+}
+  
+/* style for extras page */
+.packagetitle{
+  display: block;
+  background: rgba(8,0,64,.0352655);
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.packagename{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.note{
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  top: -2px;
+  padding-left: 5px;
+  margin-bottom: 0;
+}
+
+.line{
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #d5b6ae;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h5{
+  font-size: 28px;
+}
+
+li{
+  padding-top: 7px;
+}
+
+.checkboxStyle{
+  margin-left: 120px;
+}
+
+label{
+  padding-top: 7px;
+}
+
+.delistyle{
+  margin-left: 120px;
+}
+
+.upgradeList{
+  margin-left: 110px;
+}
+
+.no-bullet{
+  list-style-type: none;
+}
+
+/*slide animation*/
+#slider
+{ width:500px;
+  height:300px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/600px-Image_created_with_a_mobile_phone.png");
+  margin:100px auto;
+  animation:slide 25s infinite;
+  border-radius: 100%;
+}
+@keyframes  slide {
+  25%{
+    background: url("https://images.squarespace-cdn.com/content/v1/5d5c1c761244af000131c2bb/1625596842994-E289SJXWUQIRG3CWCKXD/IMG_5613.jpg?format=600w")
+  }
+  50%{
+    background: url("https://images.squarespace-cdn.com/content/v1/5d5c1c761244af000131c2bb/1625595229035-FKRW1UVEZU32DO0NVXWJ/DSC_3507.jpg?format=600w")
+  }
+  75%{
+    background: url("https://images.squarespace-cdn.com/content/v1/5d5c1c761244af000131c2bb/1625596955146-6T6X34JHDGG6VH3HDEB5/DSC_3361.jpg?format=600w")
+  }
+  100%{
+    background: url("https://images.squarespace-cdn.com/content/v1/5d5c1c761244af000131c2bb/1625614956650-LFITWYR8WCFBKJKNN5WI/IMG_9385.JPG?format=600w")
+  }
+  
+}
+
+.icon {
+    border: 2px solid #534e4d;
+    border-radius: 300px;
+    background-color: #544f4d;
+    color:white;
+}
+
+.breadcrumbcontainer{
+  background-color: #e9ecef;
+}
+
+.breadcrumb{
+    font-family: sans-serif;
+}
+
+.breadcrumb-item{
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.bread-link{
+  text-decoration: none;
+  color: #999999;
+}
+
+.bread-link:hover{
+  text-decoration: underline;
+  color: #d5b6ae;
+}
+
+.breadcrumb-active{
+  color: #d5b6ae;
+  font-weight: 500;
+}
+
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.head{
+    background-color: #dddddd;
+}
